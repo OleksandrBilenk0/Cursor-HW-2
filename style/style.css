@@ -33,28 +33,38 @@ a.underline:hover:after {
   opacity: 1;
 }
 
-h1 {
+.header_title {
     display: inline;
     margin-bottom: 3px;
     color: #c54f00;
-}
-pre {
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
 }
 
-img {
+.header_img {
+    margin: 0;
+}
+
+.image {
     width: 400px;
 }
 
-.end_title {
+.main_title {
+
+}
+
+.main_text {
+
+}
+
+.footer_title {
     margin-bottom: 0;
 }
 
-.end_text {
+.footer_text {
     margin-top: 3px;
     margin-bottom: 3px;
 }
 
-ul {
+.footer_list {
     margin-top: 0;
 }
