@@ -4,6 +4,10 @@ body {
     font-size: 16px;
 }
 
+article {
+    width: 655px;
+}
+
 a {
     position: relative;
     text-decoration: none;
@@ -27,7 +31,6 @@ a.underline:hover {
   color: #4e4e4e;
 }
 
-/* При наведении на ссылку, псевдоэлемент :after становится непрозрачным и шириной 100% относительно текста ссылки*/
 a.underline:hover:after {
   width: 100%;
   opacity: 1;
@@ -63,3 +66,6 @@ i {
 .footer_list {
     margin-top: 0;
 }
+
+.signature {
+display: none;}
